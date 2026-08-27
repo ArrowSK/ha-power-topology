@@ -1,0 +1,14 @@
+{
+  "title": "Power Topology",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Power Topology",
+        "description": "Power Topology observes normal metered-switch changes and learns likely electrical nesting relationships. It is read-only: it will not switch devices or change your existing energy calculations."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Power Topology is already configured."
+    }
+  }
+}
